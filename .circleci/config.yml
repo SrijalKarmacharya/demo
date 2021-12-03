@@ -1,10 +1,10 @@
 version: 2.1
 
 orbs:
-  node: circleci/maven@0.0.12 #orb version
+  maven: circleci/maven@0.0.12 #orb version
 
 workflows:
-  test_my_app:
+  maven_test:
     jobs:
-      - maven/test:
+      - maven/test
         
