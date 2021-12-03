@@ -1,10 +1,10 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@4.0.1 #orb version
+  node: circleci/node@4.8.0 #orb version
 
 workflows:
   test_my_app:
     jobs:
       - node/test:
-          version: node@4.0.1
+          version: 4.8.0
